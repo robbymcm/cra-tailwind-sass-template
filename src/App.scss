@@ -1,0 +1,6 @@
+
+@import './tailwind.scss';
+
+.app {
+	@apply text-center p-6 bg-slate-200 h-screen w-screen;
+};

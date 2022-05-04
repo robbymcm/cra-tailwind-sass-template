@@ -1,0 +1,10 @@
+
+@import '../../tailwind.scss';
+
+.test-component {
+	@apply text-3xl bg-red-400 rounded-md p-4;
+
+    &:hover {
+        @apply bg-green-400;
+    };
+};
